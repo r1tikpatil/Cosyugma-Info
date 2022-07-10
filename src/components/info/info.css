@@ -242,7 +242,8 @@ body {
     }
 
     .work-experience {
-        margin-bottom: 8%;
+        margin-bottom: 10%;
+        height: 250vh;
 
     }
 }
