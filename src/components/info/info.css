@@ -1,0 +1,283 @@
+body {
+    font-size: large;
+    margin: 40px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+}
+
+.div-size {
+    width: 95vw;
+}
+
+.info-image {
+    width: 100%;
+    height: 80vh;
+}
+
+.info-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.heading-left h1 {
+    text-align: start;
+
+}
+
+.information {
+    text-align: start;
+
+
+}
+
+.company-culture-info {
+    text-align: left;
+}
+
+.tech-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.tech {
+    width: 30%;
+
+}
+
+.tech img {
+    height: 80px;
+    width: 80px;
+
+}
+
+.tech h2 {
+    font-size: 1.2rem;
+}
+
+.social-media-logo {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 20vh;
+    align-items: center;
+}
+
+.social-media-tag {
+    width: 8%;
+    height: 40%;
+    padding: 2px;
+    transform: scale(1);
+}
+
+.social-media-tag a :active {
+    transform: scale(0.8);
+}
+
+.social-media-tag a img {
+    width: 70%;
+    height: 90%;
+    background-size: cover;
+    background-position: center;
+}
+
+.social-media-tag a img:hover {
+    width: 80%;
+    height: 100%;
+    transition: all 0.1s;
+}
+
+.contact-number {
+    text-align: left;
+}
+
+.contact-number span {
+    margin-left: 1%;
+}
+
+.contact-mail {
+    text-align: left;
+}
+
+.contact-mail a {
+    margin-left: 1%;
+}
+
+.work-experience {
+    height: 135vh;
+    width: 100%;
+
+}
+
+.experience-info {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 50px;
+    /* height: 70%; */
+}
+
+.testimonial {
+    height: 100%;
+}
+
+.testimonial img {
+    margin: 10px 0 0;
+    width: 120px;
+    height: 200px;
+    margin-bottom: 5%;
+    border-radius: 10px;
+
+}
+
+.testimonial div {
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 70%;
+    margin: 0 auto;
+    padding: 10px 15px;
+}
+
+.testimonial div p {
+    text-align: start;
+}
+
+.connect-info {
+    border-top: 4px solid black;
+}
+
+.guiding-principle-info {
+    height: 40vh;
+}
+
+.principle {
+    height: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.principle-circle {
+    border-radius: 50%;
+    border: 6px solid black;
+    width: 160px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 10px;
+    margin-right: 5%;
+}
+
+@media (max-width: 600px) {
+    .principle {
+        flex-direction: column;
+    }
+
+    .guiding-principle-info {
+        height: 50vh;
+        margin-bottom: 15%;
+    }
+
+    .principle-circle {
+        margin-bottom: 5%;
+    }
+}
+
+@media (max-width: 608px) {
+    .div-size h1 {
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width:609px) {
+    .div-size h1 {
+        font-size: 2.5em;
+    }
+}
+
+@media (max-width:700px) {
+
+    .social-media-tag {
+        width: 10%;
+        height: 40%;
+    }
+
+    .social-media-tag a img {
+        width: 100%;
+        height: 90%;
+        background-size: cover;
+        background-position: center;
+    }
+
+}
+
+@media (min-width:661px) and (max-width: 729px) {
+    .work-experience {
+        height: 190vh;
+        margin-bottom: 35%;
+    }
+}
+
+@media (min-width:730px) and (max-width: 849px) {
+    .work-experience {
+        height: 170vh;
+        margin-bottom: 25%;
+    }
+}
+
+@media (min-width:850px) and (max-width: 1000px) {
+    .work-experience {
+        height: 150vh;
+        margin-bottom: 15%;
+    }
+}
+
+@media (max-width : 1100px) {
+    .testimonial div {
+        height: 83%;
+    }
+
+    .work-experience {
+        margin-bottom: 8%;
+
+    }
+}
+
+@media (min-width:470px) and (max-width:660px) {
+    .work-experience {
+        height: 280vh;
+    }
+
+    .experience-info {
+        grid-template-columns: auto;
+    }
+
+    .testimonial div {
+        height: 55%;
+    }
+
+    .testimonial {
+        margin-bottom: 25%;
+    }
+}
+
+@media (max-width:469px) {
+    .work-experience {
+        height: 320vh;
+    }
+    .experience-info {
+        grid-template-columns: auto;
+    }
+
+    .testimonial div {
+        height: 65%;
+    }
+
+    .testimonial {
+        margin-bottom: 25%;
+    }
+}
